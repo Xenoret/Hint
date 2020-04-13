@@ -5,6 +5,7 @@
 
 import os
 
+os.system('cls||clear') #Use for clear terminal
 print('\nВ Python у списков имеется одиннадцать методов. Большинство из них предназначены для вставки и удаления элементов.\n')
 #Меню выбора
 met = ''' 
