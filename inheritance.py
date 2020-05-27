@@ -1,3 +1,5 @@
+# Наследование
+
 import os
 
 def clear():
