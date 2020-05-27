@@ -7,10 +7,6 @@ def clear():
 clear()
 
 
-
-
-
-
 print('До наследования!')
 
 class Calc(object): #Класс родитель
@@ -21,7 +17,7 @@ class Calc(object): #Класс родитель
 		value = self.calc_value()
 		self.print_number(value)
 
-	def calc_value(self):#В дальнейшем будет изменён в классе наследнике
+	def calc_value(self):#В дальнейшем будет изменён в классе наследника
 		return self.number * 10 + 2
 
 	def print_number(self, value_to_print):
@@ -31,11 +27,6 @@ class Calc(object): #Класс родитель
 
 c = Calc(3)
 c.calc_and_print()
-
-
-
-
-
 
 
 
