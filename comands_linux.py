@@ -337,7 +337,6 @@ while menu:
 	elif writer == '0':
 		menu()
 	elif writer == '00':
-		print('До новых встреч!')
 		os.system('cls||clear')
 		exit()
 	else:
